@@ -1,0 +1,13 @@
+{
+  "name": "bgtelegrambot",
+  "version": "1.0.0",
+  "description": "Telegram bot for BuidlGuidl",
+  "main": "index.js",
+  "author": "supernovahs.eth",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  }
+}
