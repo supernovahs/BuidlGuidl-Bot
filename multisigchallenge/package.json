@@ -1,0 +1,12 @@
+{
+  "name": "multisigchallenge",
+  "version": "1.0.0",
+  "description": "multisig telegram bot",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  }
+}
