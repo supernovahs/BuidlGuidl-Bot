@@ -45,8 +45,5 @@ bot.command('quit', async (ctx) => {
     await ctx.telegram.sendMessage(ctx.message.chat.id, `${repo}`)
   })
 
-
-
-
   bot.launch();
 
