@@ -24,29 +24,29 @@ bot.command('quit', async (ctx) => {
 
   
 
-  bot.on('callback_query', async (ctx) => {
+//   bot.on('callback_query', async (ctx) => {
 
-    // const result = [{type: }];
-    // Explicit usage
-    // await ctx.telegram.answerInlineQuery(ctx.inlineQuery.id, result);
-    let val = ctx.callbackQuery.query;
-    await ctx.telegram.answerCallbackQuery("1","Hello");
-    // console.log("id",await ctx?.message?.chat.id);
-    // await ctx.telegram.sendMessage(ctx.message.chat.id, `Welcome to BuidlGuidl
+//     // const result = [{type: }];
+//     // Explicit usage
+//     // await ctx.telegram.answerInlineQuery(ctx.inlineQuery.id, result);
+//     let val = ctx.callbackQuery.query;
+//     await ctx.telegram.answerCallbackQuery("1","Hello");
+//     // console.log("id",await ctx?.message?.chat.id);
+//     // await ctx.telegram.sendMessage(ctx.message.chat.id, `Welcome to BuidlGuidl
 
-    console.log("val",val);
-    // Using context shortcut
+//     console.log("val",val);
+//     // Using context shortcut
   
-  // let a = val.match(/\b(\w+)\b/g);
-  // console.log("a",a);
-  //   if(val.startsWith("wei")){
-  //     console.log("is wei");
-  //     // await ctx.answerInlineQuery("LFG");
-  //   }
+//   // let a = val.match(/\b(\w+)\b/g);
+//   // console.log("a",a);
+//   //   if(val.startsWith("wei")){
+//   //     console.log("is wei");
+//   //     // await ctx.answerInlineQuery("LFG");
+//   //   }
     
-    // 
+//     // 
 
-})
+// })
 
   bot.on('new_chat_members', async (ctx) => {
     // Explicit usage
