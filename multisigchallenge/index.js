@@ -37,7 +37,7 @@ bot.command('quit', async (ctx) => {
     await ctx.telegram.sendMessage(ctx.message.chat.id, `${repo}`)
   })
   bot.command('maas',async  (ctx) =>{
-    let repo = 'https://github.com/austintgriffith/maas';
+    let repo = 'https://github.com/BuidlGuidl/multisig.lol';
     await ctx.telegram.sendMessage(ctx.message.chat.id, `${repo}`)
   })
   bot.command('se',async  (ctx) =>{
